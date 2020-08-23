@@ -18,18 +18,18 @@
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
   </properties>
-   <distributionManagement>
+  <distributionManagement>
     <repository>
         <id>central</id>
         <name>JFrogartifact-ID-releases</name>
-        <url>http://13.127.232.140:8081/artifactory/maven-local-repo1</url>
+        <url>http://13.127.232.140:8081/artifactory/maven-local-repo3</url>
     </repository>
     <snapshotRepository>
         <id>snapshots</id>
         <name>JFrogartifact-ID-snapshots</name>
-        <url>http://13.127.232.140:8081/artifactory/maven-local-repo1</url>
+        <url>http://13.127.232.140:8081/artifactory/maven-local-repo3</url>
     </snapshotRepository>
-    </distributionManagement>
+</distributionManagement>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
