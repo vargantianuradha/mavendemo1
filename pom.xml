@@ -19,16 +19,16 @@
     <maven.compiler.target>1.7</maven.compiler.target>
   </properties>
   
-  <distributionManagement>
+ <distributionManagement>
     <repository>
-    <id>central</id>
+        <id>central</id>
         <name>ip-172-31-34-23.ap-south-1.compute.internal-releases</name>
-        <url>http://13.235.19.155:8081/artifactory/libs-release-local</url>
+        <url>http://13.235.19.155:8081/artifactory/maven-local-repo</url>
     </repository>
-       <snapshotRepository>
+    <snapshotRepository>
         <id>snapshots</id>
         <name>ip-172-31-34-23.ap-south-1.compute.internal-snapshots</name>
-        <url>http://13.235.19.155:8081/artifactory/libs-snapshot-local</url>
+        <url>http://13.235.19.155:8081/artifactory/maven-local-repo</url>
     </snapshotRepository>
 </distributionManagement>
    
