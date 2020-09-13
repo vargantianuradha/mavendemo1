@@ -1,8 +1,0 @@
----
-- name: Download artifact test
-  become: true
-  get_url:
-    url: http://13.233.112.77:8081/artifactory/maven-local-repo/com/mycompany/training/flyhighwebapp/1.0-SNAPSHOT/com/mycompany/training/flyhighwebapp/1.0-SNAPSHOT/flyhighwebapp-1.0-SNAPSHOT.war
-    dest: /root/warfiles/
-    url_username: admin
-    url_password: AKCp5fUsPSYPYHVHnVkThbqXb4CQVrbTynDJNJhB6dnRUa9pvwNtwrfABWmnCrAJE2wvRSSgV
