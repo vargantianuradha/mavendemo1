@@ -1,5 +1,5 @@
 <html>
 <body>
-<h2>Hello To The World of devopsworld2021!</h2>
+<h2>Hello To The World of devopsworld!</h2>
 </body>
 </html>
